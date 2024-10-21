@@ -1,0 +1,75 @@
+.Container {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .Titulo__principal{
+    text-align: center;
+  }
+  .Modificador__form{
+    display: block;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+input {
+    width: 90%;
+    display: inline-block;
+    font-size: 16px;
+    height: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+.Modificar__texto{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  .btn-modificador {
+    width: 90%;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+.btn-modificador:hover {
+    background-color: #218838;
+}
+
+.btn-2__modificador {
+  background-color: #19c4d5;
+  margin-top: 1rem;
+}
+.btn-2__modificador:hover {
+  background-color: #85c1e9;
+  
+}
+
+.Errors {
+  color: #e74c3c;
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  font-family: var(--fuente_de_texto_secundaria);
+  animation: fade-in 0.5s ease-in-out;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
