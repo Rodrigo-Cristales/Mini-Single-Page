@@ -21,7 +21,6 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
 }
 
-/* Estilo de la tabla */
 .Table__Modificador {
     width: 100%; 
     border-collapse: collapse;

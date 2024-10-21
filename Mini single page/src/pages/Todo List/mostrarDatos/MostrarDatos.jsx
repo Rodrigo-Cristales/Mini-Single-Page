@@ -45,7 +45,7 @@ const MostrarDatos = () => {
                     );
 
              //este console me sirve para determinar si se realizo el cambio de infomarcion o mas bien de estado
-                    console.log("Tareas después de la actualización:", updatedTareas); // Agregar este log
+                    console.log("Tareas después de la actualización:", updatedTareas); //
                     return updatedTareas
                 })
         } catch (error) {
